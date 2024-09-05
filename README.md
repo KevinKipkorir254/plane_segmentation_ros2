@@ -9,6 +9,7 @@ fork from: https://github.com/leggedrobotics/elevation_mapping_cupy/tree/main/pl
 ## Usage
 ### Build
 ```bash
+// only tested on ros2 iron
 colcon build --packages-select build convex_plane_decomposition_ros
 ```
 
